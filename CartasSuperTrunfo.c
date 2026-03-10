@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    // Definição das variáveis
+     // Definição das variáveis
     char estado='A';
     char carta[20]="A01";
     char cidade[20]="Brasilia";
