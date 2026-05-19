@@ -1,20 +1,29 @@
 #include <stdio.h>
 
+// Desafio Super Trunfo - Países
+
 int main() {
      
      // Definição das variáveis
     //CARTA 1  
     char estado1='A',carta1[20]="A01",
         cidade1[20]="Brasilia";
-    int populacao1=1202554, numero_turis1=50;
-    float area_em_km1=1521.11, pib1=699.28, densidade1,
+        
+        unsigned long int populacao1=1202554; /*passou de int para unsigned
+        long int para que acomode números maiores*/
+        
+        int  numero_turis1=50;
+        float area_em_km1=1521.11, pib1=699.28, densidade1,
           pib_per_capita1;
 
     //CARTA 2
      char estado2='B',carta2[20]="B01",
         cidade2[20]="Goias";
-    int populacao2=1202558, numero_turis2=5;
-    float area_em_km2=500, pib2=699.27, densidade2,
+        
+        unsigned long int populacao2=1202558;
+        
+        int numero_turis2=5;
+        float area_em_km2=500, pib2=699.27, densidade2,
           pib_per_capita2;
 
 
